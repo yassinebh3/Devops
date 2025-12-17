@@ -32,10 +32,9 @@ pipeline {
                           -Dsonar.projectKey=student-management \
                           -Dsonar.projectName="Student Management" \
                           -Dsonar.host.url=http://localhost:9000 \
-                          -Dsonar.login=admin \
                           -Dsonar.password=squ_9d630ccbfe6139d8fdfeedf88374ecc7d325da46
-                    else
-                        mvn sonar:sonar \
+                    else                        
+                          mvn sonar:sonar \
                           -Dsonar.projectKey=student-management \
                           -Dsonar.projectName="Student Management" \
                           -Dsonar.host.url=http://localhost:9000 \
